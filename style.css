@@ -6,3 +6,9 @@ body {
 strong {
     color: #52CDFF;
 }
+
+span {
+    color: #52CDFF;
+    border: 1px solid #52CDFF;
+    padding: 10px;
+}
