@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="">Home</a>
+            <a class="cabecalho__menu__link" href="">Sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
 
         <section class="apresentacao__conteudo">
@@ -16,16 +21,25 @@
             <strong class="titulo_destaque">com um <span>Front-end</span> de qualidade!</strong></h1>
             <p class="apresentacao__conteudo__paragrafo">Olá! Sou Maria Fernanda Mirabile, desenvolvedora Front-end com especialidade em React, HTML, CSS e Python. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
             <div class="apresentacao__botoes">
-                <h2>Acesse minhas redes:</h2>
-                <a class="apresentacao__botoes__botao" href="https://www.instagram.com/">Instagram</a>
-                <a class="apresentacao__botoes__botao" href="https://github.com/mfernandamirabile">GitHub</a>
+                <h2 class="apresentacao__botoes_subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__botoes__botao" href="https://github.com/mfernandamirabile">
+                    <img src="./assets/logo_Github.png" alt="foto logo Github">
+                    GitHub
+                </a>
+                <a class="apresentacao__botoes__botao" href="https://www.linkedin.com/in/fernanda-mirabile/">
+                    <img src="./assets/logo_Linkedin.png" alt="foto logo Linkedin">
+                    Linkedin
+                </a>
             </div>
         </section>
 
 
-        <img src="foto_com_fundo.png" alt="Foto Maria Fernanda">
+        <img class="perfil" src="./assets/foto_com_fundo.png" alt="Foto Maria Fernanda">
+        
 
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Maria Fernanda</p>
+    </footer>
 </body>
 </html>
