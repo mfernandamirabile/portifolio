@@ -1,6 +1,6 @@
 # Portfólio Profissional de Maria Fernanda Mirabile
 
-Este é o código-fonte do meu portfólio profissional, sou uma desenvolvedora Front-end com especialidade em React, HTML, CSS e Python. Este portfólio destaca suas habilidades e experiências, fornecendo informações sobre ela, seu trabalho e como entrar em contato.
+Este é o código-fonte do meu portfólio profissional, sou uma desenvolvedora Front-end com especialidade em React, HTML, CSS e Python. Este portfólio destaca minhas habilidades e experiências, fornecendo informações sobre ela, meu trabalho e como entrar em contato.
 
 ## Estrutura do Projeto
 
