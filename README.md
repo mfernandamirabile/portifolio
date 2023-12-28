@@ -20,15 +20,15 @@ O diretório "assets" contém as imagens utilizadas no portfólio, incluindo a f
 
 ### Página Inicial (index.html)
 
-A página inicial apresenta uma introdução destacada, enfatizando as habilidades de Maria Fernanda como desenvolvedora Front-end. Há também botões de acesso rápido às suas redes sociais, GitHub e LinkedIn. Uma foto de perfil complementa a seção de apresentação.
+A página inicial apresenta uma breve introdução sobre mim. Há também botões de acesso rápido às minhas redes sociais, GitHub e LinkedIn e uma foto de perfil complementa.
 
 ### Página "Sobre Mim" (about.html)
 
-A página "Sobre Mim" fornece uma breve descrição de Maria Fernanda, destacando suas especialidades e seu objetivo de ajudar pequenos negócios e designers a concretizarem boas ideias.
+A página "Sobre Mim" ainda está em construção e irá conter alguns aspectos sobre mim, minha personalidade, carreira, habilidades e planos futuros.
 
 ### Página "Currículo" (curriculo.html)
 
-A página de currículo apresenta informações mais detalhadas sobre Maria Fernanda, incluindo seu nome, contato e localização. Esta página é destinada a fornecer uma visão mais profunda de sua experiência profissional.
+A página de currículo terá informações mais detalhadas sobre minhas experiências e trajetória profissional.
 
 ## Rodapé
 
