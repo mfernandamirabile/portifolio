@@ -29,11 +29,9 @@ body {
 }
 
 .curriculo {
-    /* padding: 4% 15%; */
-    margin: 10% 10%;
+    padding: 4% 15%;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
 
 }
@@ -60,7 +58,7 @@ body {
 
 .curriculo__titulo_linha {
     border: 1px solid #52CDFF;
-    width: 1000px;
+    width: 905px;
 }
 
 .curriculo__corpo {
@@ -86,6 +84,13 @@ body {
     font-size: 25px;
     color: #DB4664;
     padding-top: 167px;
+}
+
+.curriculo__esquerda__titulo__terceiro {
+    font-family: 'Krona one', sans-serif;
+    font-size: 25px;
+    color: #DB4664;
+    padding-top: 155px;
 }
 
 .curriculo__esquerda__data__primeira {
@@ -151,11 +156,11 @@ body {
     margin: 45% 45%;
 }
 
-.curriculo__linha__quinta {
+/* .curriculo__linha__quinta {
     border: 1px solid #DB4664;
     height: 80px;
     margin: 45% 45%;
-}
+} */
 
 .curriculo__linha__sexta {
     border: 1px solid #DB4664;
