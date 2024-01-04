@@ -29,7 +29,6 @@ body {
 }
 
 .curriculo {
-    margin: 0;
     padding: 4% 15%;
     display: flex;
     align-items: center;
@@ -71,7 +70,6 @@ body {
     display: flex;
     flex-direction: column;
     padding: 15% 0% 0% 0%;
-    /* gap: 5px; */
 }
 
 .curriculo__esquerda__titulo  {
@@ -119,11 +117,6 @@ body {
     padding-top: 75%;
 }
 
-.curriculo__esquerda__indioma {
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 8%;
-}
-
 .curriculo__meio {
     display: flex;
     flex-direction: column;
@@ -161,12 +154,6 @@ body {
     height: 160px;
     margin: 45% 45%;
 }
-
-/* .curriculo__linha__quinta {
-    border: 1px solid #DB4664;
-    height: 80px;
-    margin: 45% 45%;
-} */
 
 .curriculo__linha__sexta {
     border: 1px solid #DB4664;
@@ -218,13 +205,31 @@ body {
     font-size: 20px;
 }
 
-.curriculo__direita__proficiencias {
+.curriculo__embaixo {
+    display: flex;
+    align-items: flex-start;
+}
+
+.curriculo__embaixo__esquerda {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0% 0% 0%;
+}
+
+.curriculo__embaixo__direita {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0% 0% 0%;
+}
+
+.curriculo__embaixo__titulo {
     font-family: 'Krona one', sans-serif;
     font-size: 25px;
     color: #DB4664;
     padding-top: 120px;
 }
 
-.curriculo__direita__proficiencia {
+.curriculo__embaixo__paragrafo {
     font-family: 'Montserrat', sans-serif;
+    padding-top: 8%;
 }
