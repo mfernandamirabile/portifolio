@@ -119,6 +119,11 @@ body {
     padding-top: 75%;
 }
 
+.curriculo__esquerda__indioma {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 8%;
+}
+
 .curriculo__meio {
     display: flex;
     flex-direction: column;
@@ -205,4 +210,21 @@ body {
 .curriculo__direita__conquistas__segunda {
     font-family: 'Montserrat', sans-serif;
     padding-top: 3%;
+}
+
+.curriculo__direita__educacao {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30%;
+    font-size: 20px;
+}
+
+.curriculo__direita__proficiencias {
+    font-family: 'Krona one', sans-serif;
+    font-size: 25px;
+    color: #DB4664;
+    padding-top: 120px;
+}
+
+.curriculo__direita__proficiencia {
+    font-family: 'Montserrat', sans-serif;
 }
