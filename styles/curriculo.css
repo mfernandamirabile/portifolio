@@ -64,17 +64,59 @@ body {
 
 .curriculo__corpo {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .curriculo__esquerda {
-    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 15% 0% 0% 0%;
+    /* gap: 5px; */
+}
+
+.curriculo__esquerda__titulo  {
+    font-family: 'Krona one', sans-serif;
+    font-size: 25px;
+    color: #DB4664;
+}
+
+.curriculo__esquerda__titulo__segundo {
+    font-family: 'Krona one', sans-serif;
+    font-size: 25px;
+    color: #DB4664;
+    padding-top: 167px;
+}
+
+.curriculo__esquerda__data__primeira {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 45%;
+}
+
+.curriculo__esquerda__data__segunda {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 78%;
+}
+
+.curriculo__esquerda__data__terceira {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 106%;
+}
+
+.curriculo__esquerda__data__quarta {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 47%;
+}
+
+.curriculo__esquerda__data__quinta {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 75%;
 }
 
 .curriculo__meio {
     display: flex;
     flex-direction: column;
-    padding: 55%;
+    padding: 16% 5% 0% 5%;
+    margin: 0px;
 }
 
 .curriculo__circulo__vazado {
@@ -84,7 +126,37 @@ body {
     border-radius: 50%;
 }
 
-.curriculo__linha {
+.curriculo__linha__primeira {
+    border: 1px solid #DB4664;
+    height: 80px;
+    margin: 45% 45%;
+}
+
+.curriculo__linha__segunda {
+    border: 1px solid #DB4664;
+    height: 140px;
+    margin: 45% 45%;
+}
+
+.curriculo__linha__terceira {
+    border: 1px solid #DB4664;
+    height: 200px;
+    margin: 45% 45%;
+}
+
+.curriculo__linha__quarta {
+    border: 1px solid #DB4664;
+    height: 160px;
+    margin: 45% 45%;
+}
+
+.curriculo__linha__quinta {
+    border: 1px solid #DB4664;
+    height: 80px;
+    margin: 45% 45%;
+}
+
+.curriculo__linha__sexta {
     border: 1px solid #DB4664;
     height: 140px;
     margin: 45% 45%;
@@ -97,3 +169,33 @@ body {
     border-radius: 50%;
 }
 
+.curriculo__direita {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 29% 5% 0% 0%;
+}
+
+.curriculo__direita__experiencias {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.curriculo__direita__experiencias__segunda {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 13px;
+}
+
+.curriculo__destaque {
+    color: #52CDFF;
+    font-size: 20px;
+}
+
+.curriculo__direita__conquistas_primeira {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 35%;
+}
+
+.curriculo__direita__conquistas__segunda {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 3%;
+}
