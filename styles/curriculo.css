@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+:root {
+    --cor-primaria: black;
+    --cor-secundaria: #F6F6F6;
+    --cor-tercearia: #52CDFF;
+    --cor-quartenaria: #DB4664;
+    
+    --fonte-titulo: 'Krona one', sans-serif;
+    --fonte-paragrafo: 'Montserrat', sans-serif;
+}
+
 * {
    margin: 0;
    padding: 0;
 }
 
 body {
-    /* height: 100vh; */
     box-sizing: border-box;
-    background-color:black;
-    color:#F6F6F6;
+    background-color: var(--cor-primaria);
+    color:var(--cor-secundaria);
 }
 
 .cabecalho__menu {
@@ -19,10 +28,9 @@ body {
 }
 
 .cabecalho__menu__link {
-    color: #52CDFF;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-tercearia);
+    font-family: var(--fonte-paragrafo);
     font-weight: 600;
-    /* font-weight: 600; */
     text-decoration: none;
     justify-content: center;
 
@@ -46,19 +54,19 @@ body {
 }
 
 .curriculo__titulo__nome {
-    font-family: 'Krona one', sans-serif;
+    font-family: var(--fonte-titulo);
     font-size: 36px;
-    color: #F6F6F6;
+    color: var(--cor-secundaria);
     font-weight: 400;
 }
 
 .curriculo__titulo__info {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-paragrafo);
     font-size: 20px;
 }
 
 .curriculo__titulo_linha {
-    border: 1px solid #52CDFF;
+    border: 1px solid var(--cor-tercearia);
     flex-grow: 1;
     width: 100%;
 }
@@ -75,47 +83,47 @@ body {
 }
 
 .curriculo__esquerda__titulo  {
-    font-family: 'Krona one', sans-serif;
+    font-family: var(--fonte-titulo);
     font-size: 25px;
-    color: #DB4664;
+    color: var(--cor-quartenaria);
 }
 
 .curriculo__esquerda__titulo__segundo {
-    font-family: 'Krona one', sans-serif;
+    font-family: var(--fonte-titulo);
     font-size: 25px;
-    color: #DB4664;
+    color: var(--cor-quartenaria);
     padding-top: 167px;
 }
 
 .curriculo__esquerda__titulo__terceiro {
-    font-family: 'Krona one', sans-serif;
+    font-family: var(--fonte-titulo);
     font-size: 25px;
-    color: #DB4664;
+    color: var(--cor-quartenaria);
     padding-top: 155px;
 }
 
 .curriculo__esquerda__data__primeira {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-paragrafo);
     padding-top: 45%;
 }
 
 .curriculo__esquerda__data__segunda {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-paragrafo);
     padding-top: 78%;
 }
 
 .curriculo__esquerda__data__terceira {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-paragrafo);
     padding-top: 106%;
 }
 
 .curriculo__esquerda__data__quarta {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-paragrafo);
     padding-top: 47%;
 }
 
 .curriculo__esquerda__data__quinta {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-paragrafo);
     padding-top: 75%;
 }
 
@@ -129,12 +137,12 @@ body {
 .curriculo__circulo__vazado {
     width: 15px;
     height: 15px;
-    border: 2px solid#DB4664;
+    border: 2px solid var(--cor-quartenaria);
     border-radius: 50%;
 }
 
 .curriculo__linha__primeira {
-    border: 1px solid #DB4664;
+    border: 1px solid var(--cor-quartenaria);
     /* height: 80px; */
     height: 6%;
     margin: 45% 45%;
@@ -142,7 +150,7 @@ body {
 }
 
 .curriculo__linha__segunda {
-    border: 1px solid #DB4664;
+    border: 1px solid var(--cor-quartenaria);
     /* height: 140px; */
     height:10.5%;
     margin: 45% 45%;
@@ -150,7 +158,7 @@ body {
 }
 
 .curriculo__linha__terceira {
-    border: 1px solid #DB4664;
+    border: 1px solid var(--cor-quartenaria);
     /* height: 200px; */
     height: 30vh;
     margin: 45% 45%;
@@ -158,7 +166,7 @@ body {
 }
 
 .curriculo__linha__quarta {
-    border: 1px solid #DB4664;
+    border: 1px solid var(--cor-quartenaria);
     /* height: 160px; */
     height: 11.5%;
     margin: 45% 45%;
@@ -166,7 +174,7 @@ body {
 }
 
 .curriculo__linha__sexta {
-    border: 1px solid #DB4664;
+    border: 1px solid var(--cor-quartenaria);
     height: 140px;
     margin: 45% 45%;
     flex-grow: 1;
@@ -175,7 +183,7 @@ body {
 .curriculo__circulo {
     width: 19px;
     height: 19px;
-    background-color:#DB4664;
+    background-color:var(--cor-quartenaria);
     border-radius: 50%;
 }
 
@@ -187,31 +195,31 @@ body {
 }
 
 .curriculo__direita__experiencias {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-paragrafo);
 }
 
 .curriculo__direita__experiencias__segunda {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-paragrafo);
     padding-top: 3%;
 }
 
 .curriculo__destaque {
-    color: #52CDFF;
+    color: var(--cor-tercearia);
     font-size: 20px;
 }
 
 .curriculo__direita__conquistas_primeira {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-paragrafo);
     padding-top: 35%;
 }
 
 .curriculo__direita__conquistas__segunda {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-paragrafo);
     padding-top: 3%;
 }
 
 .curriculo__direita__educacao {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-paragrafo);
     padding-top: 30%;
     font-size: 20px;
 }
@@ -234,13 +242,13 @@ body {
 }
 
 .curriculo__embaixo__titulo {
-    font-family: 'Krona one', sans-serif;
+    font-family: var(--fonte-titulo);
     font-size: 25px;
-    color: #DB4664;
+    color: var(--cor-quartenaria);
     padding-top: 120px;
 }
 
 .curriculo__embaixo__paragrafo {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-paragrafo);
     padding-top: 8%;
 }
