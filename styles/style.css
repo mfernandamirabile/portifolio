@@ -113,8 +113,16 @@ span {
 }
 
 @media (max-width: 1200px) {
+    .cabecalho {
+        padding: 8%;
+    }
+
     .apresentacao {
         flex-direction: column-reverse;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
     }
 }
 
