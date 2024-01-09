@@ -226,29 +226,27 @@ body {
 
 .curriculo__embaixo {
     display: flex;
-    align-items: flex-start;
+    align-self: flex-start;
+    padding-top: 10%;
+    gap: 9.5rem;
 }
 
 .curriculo__embaixo__esquerda {
     display: flex;
     flex-direction: column;
-    padding: 2% 0% 0% 0%;
 }
 
 .curriculo__embaixo__direita {
     display: flex;
     flex-direction: column;
-    padding: 2% 0% 0% 0%;
 }
 
 .curriculo__embaixo__titulo {
     font-family: var(--fonte-titulo);
     font-size: 25px;
     color: var(--cor-quartenaria);
-    padding-top: 120px;
 }
 
 .curriculo__embaixo__paragrafo {
     font-family: var(--fonte-paragrafo);
-    padding-top: 8%;
 }
