@@ -27,6 +27,7 @@ span {
 .cabecalho__menu__link {
     color: #52CDFF;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
     font-weight: 600;
     text-decoration: none;
     justify-content: center;
@@ -37,17 +38,18 @@ span {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 5.125rem;
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: 'Krona One', sans-serif;
 }
 
@@ -56,7 +58,7 @@ span {
 }
 
 .apresentacao__conteudo__paragrafo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -70,7 +72,7 @@ span {
 
 .apresentacao__botoes_subtitulo {
     font-family: 'Krona One', sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -81,10 +83,10 @@ span {
     display: flex;
     justify-content:center;
     gap: 16px;
-    width: 378px;
+    width: 70%;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -96,115 +98,25 @@ span {
     background-color: #272727;
 }
 
+.apresentacao__img {
+    width: 50%;
+}
+
 .rodape {
     padding: 15px;
     background-color: #DB4664;
     color: black;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight:  400;
 }
 
-/* Currículo */
-
-
-.curriculo {
-    padding: 4% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
 }
-
-.curriculo__titulo{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-}
-
-.curriculo__titulo__nome {
-    font-family: 'Krona one', sans-serif;
-    font-size: 36px;
-    color: #F6F6F6;
-    font-weight: 400;
-}
-
-.curriculo__titulo__info {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-}
-
-.curriculo__titulo_linha {
-    border: 1px solid #52CDFF;
-    width: 1000px;
-}
-
-.curriculo__experiencias__titulo {
-    font-family: 'Krona one', sans-serif;
-    display: flex;
-    padding: 6%;
-    align-self: flex-start;
-    font-size: 25px;
-    color:#DB4664;
-}
-
-.curriculo__experiencias__linha {
-    height: 400px;
-}
-
-.curriculo__experiencias {
-    display: flex;
-    padding-top: 5%;
-    align-items: center;
-    padding: 5% 6%;
-}
-
-.curriculo__experiencias__destaque {
-    color: #52CDFF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-}
-
-.curriculo__experiencias__data {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-}
-
-.curriculo__experiencias__esquerda{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 95px;
-}
-
-.curriculo__experiencias__direita {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 50px;
-}
-
-.curriculo__experiencias__experiencia {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-}
-
-/* Currículo esquerda */
-.curriculo__corpo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.curriculo__esquerda{
-    display: flex;
-    flex-direction: column;
-}
-
 
 
 
